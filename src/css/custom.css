@@ -1,0 +1,218 @@
+/*!***/
+/* * Any CSS included here will be global. The classic template*/
+/* * bundles Infima by default. Infima is a CSS framework designed to*/
+/* * work well for content-centric websites.*/
+/* *!*/
+
+/*@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');*/
+
+
+/*!* You can override the default Infima variables here. *!*/
+/*:root {*/
+/*  --ifm-color-primary: #0168e5;*/
+/*  --ifm-color-primary-dark: #015ece;*/
+/*  --ifm-color-primary-darker: #0158c3;*/
+/*  --ifm-color-primary-darkest: #0149a0;*/
+/*  --ifm-color-primary-light: #0172fc;*/
+/*  --ifm-color-primary-lighter: #0b79fe;*/
+/*  --ifm-color-primary-lightest: #2d8bfe;*/
+/*  --ifm-code-font-size: 95%;*/
+/*  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);*/
+/*  --ifm-background-color: #f8f9fa;*/
+/*  !*--ifm-menu-link-padding-horizontal: .2rem;*!*/
+/*}*/
+
+/*!* For readability concerns, you should choose a lighter palette in dark mode. *!*/
+/*html[data-theme="dark"] {*/
+/*  --ifm-color-primary: #4D94F0;*/
+/*  --ifm-color-primary-dark: #4D94F0;*/
+/*  --ifm-color-primary-darker: #3B80D9;*/
+/*  --ifm-color-primary-darkest: #2A6DC4 ;*/
+/*  --ifm-color-primary-light: #72AFF5 ;*/
+/*  --ifm-color-primary-lighter: #9CC9FA;*/
+/*  --ifm-color-primary-lightest: #CFE4FD;*/
+/*  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);*/
+/*  --ifm-background-color: rgb(27, 27, 31);*/
+/*  --ifm-background-surface-color: rgb(22, 22, 24);*/
+/*  --ifm-toc-border-color: #333;*/
+
+/*  --ifm-color-gray-0: #e6e6e6;    !* Much darker than white *!*/
+/*  --ifm-color-gray-100: #cfcfcf;  !* Darker light gray *!*/
+/*  --ifm-color-gray-200: #b8b8b8;  !* Light-medium gray *!*/
+/*  --ifm-color-gray-300: #9f9f9f;  !* Medium gray *!*/
+/*  --ifm-color-gray-400: #868686;  !* Medium-dark gray *!*/
+/*  --ifm-color-gray-500: #6e6e6e;  !* Darker gray *!*/
+/*  --ifm-color-gray-600: #565b61;  !* Strong dark gray *!*/
+/*  --ifm-color-gray-700: #404348;  !* Very dark gray *!*/
+/*  --ifm-color-gray-800: #2b2d30;  !* Near black *!*/
+/*  --ifm-color-gray-900: #141517;  !* Almost black *!*/
+/*  --ifm-color-gray-1000: #050505; !* Deep black *!*/
+
+/*}*/
+
+/*html[data-theme="dark"] .theme-doc-sidebar-container  {*/
+/*  background-color: rgb(22, 22, 24);*/
+/*  --ifm-toc-border-color: transparent;*/
+/*}*/
+
+/*@media screen and (max-width: 996px) {*/
+/*  :root {*/
+/*    --ifm-font-size-base: 16px;*/
+/*  }*/
+/*  article header h1 {*/
+/*    font-size: 1.5rem !important;*/
+/*  }*/
+/*  .hero .hero__title {*/
+/*    font-size: 2.5rem;*/
+/*  }*/
+/*}*/
+
+/*@media screen and (min-width: 997px) {*/
+/*  :root {*/
+/*    --ifm-font-size-base: 16px;*/
+/*  }*/
+/*  article header h1 {*/
+/*    font-size: 2rem !important;*/
+/*  }*/
+
+/*  article h2 {*/
+/*    font-size: 1.6rem !important;*/
+/*  }*/
+/*}*/
+
+/*!* Add a bottom bar to h1 *!*/
+/*h1 {*/
+/*  position: relative;*/
+/*  padding-bottom: 10px;*/
+/*}*/
+
+/*h1::after {*/
+/*  content: "";*/
+/*  display: block;*/
+/*  width: 100%; !* Full width *!*/
+/*  height: 1px; !* Thickness of the bar *!*/
+/*  background-color: #333; !* Color of the bar *!*/
+/*  margin-top: 30px;*/
+/*}*/
+
+/*!* Add a thinner, centered bar to h2 *!*/
+/*h2 {*/
+/*  position: relative;*/
+/*  padding-bottom: 10px;*/
+/*}*/
+
+/*h2::after {*/
+/*  content: "";*/
+/*  display: block;*/
+/*  width: 100%; !* Full width *!*/
+/*  height: 1px; !* Thickness of the bar *!*/
+/*  background-color: #333; !* Color of the bar *!*/
+/*  margin-top: 30px;*/
+/*}*/
+
+/*:root {*/
+/*  --ifm-font-family-base: "Inter", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";;*/
+/*}*/
+
+/*!*.navbar .navbar__items {*!*/
+/*!*  flex: auto;*!*/
+/*!*}*!*/
+
+/*.navbar {*/
+/*  height: 55px;*/
+/*}*/
+
+/*html[data-theme="dark"] .navbar {*/
+/*  border-bottom: 1px solid #111;*/
+/*}*/
+
+/*!* Header Dropdown Menu *!*/
+/*.dropdown__link {*/
+/*  font-size: inherit;*/
+/*}*/
+
+/*!* Remove shadow on the left *!*/
+/*:root {*/
+/*  --ifm-global-shadow-md: 0px;*/
+/*}*/
+
+/*@media screen and (min-width: 997px) {*/
+/*  !* Show inline table of contents on mobile only *!*/
+/*  div[class^='tableOfContentsInline'] {*/
+/*    display: none;*/
+/*  }*/
+/*}*/
+
+/*article {*/
+/*  max-width: 688px;*/
+/*  margin-left: auto;*/
+/*  margin-right: auto;*/
+/*}*/
+
+/*.pagination-nav {*/
+/*  max-width: 688px;*/
+/*  margin-left: auto;*/
+/*  margin-right: auto;*/
+/*}*/
+
+/*.table-of-contents__link {*/
+/*  color: #888;*/
+/*}*/
+
+/*.menu__list-item {*/
+/*  font-size: 14px; !* Adjust as needed *!*/
+/*}*/
+
+/*.theme-doc-sidebar-menu > .theme-doc-sidebar-item-category > div > .menu__link {*/
+/*  color: #000 !important; !* White text *!*/
+/*}*/
+
+/*.theme-doc-sidebar-menu .menu__link--sublist-caret:after {*/
+/*  color: #000 !important; !* White caret *!*/
+/*}*/
+
+/*!* Make only the top-level (first-level) sidebar items white *!*/
+/*html[data-theme="dark"] .theme-doc-sidebar-menu > .theme-doc-sidebar-item-category > div > .menu__link {*/
+/*  color: #ffffff !important; !* White text *!*/
+/*}*/
+
+/*html[data-theme="dark"] .theme-doc-sidebar-menu .menu__link--sublist-caret:after {*/
+/*  color: #ffffff !important; !* White caret *!*/
+/*}*/
+
+/*.menu__caret:before {*/
+/*  background: var(--ifm-menu-link-sublist-icon) 50%/1.3rem 1.3rem;*/
+/*}*/
+
+/*.menu__link--sublist-caret:after {*/
+/*  background: var(--ifm-menu-link-sublist-icon) 50%/1.3rem 1.3rem;*/
+/*}*/
+
+/*:root {*/
+/*  --doc-sidebar-width: 280px !important;*/
+/*}*/
+
+/*.menu__list .menu__list {*/
+/*  padding-left: .25rem;*/
+/*}*/
+
+/*.menu__list .menu__list .menu__list {*/
+/*  padding-left: .75rem;*/
+/*}*/
+
+/*.menu__list .menu__list .menu__list .menu__list {*/
+/*  padding-left: .75rem;*/
+/*}*/
+
+/*html[data-theme="dark"] #__docusaurus_skipToContent_fallback > div > div > aside > div > div > nav > ul > li:nth-child(1) > a {*/
+/*  color: #ffffff;*/
+/*}*/
+
+/*.pagination-nav__label {*/
+/*  font-size: 14px;*/
+/*}*/
+
+/*html[data-theme="dark"] .navbar__items  svg {*/
+/*  color: var(--ifm-color-gray-400)*/
+/*}*/
+
